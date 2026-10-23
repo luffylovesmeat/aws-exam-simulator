@@ -1,0 +1,23 @@
+{
+  "name": "aws-exam-simulator",
+  "private": true,
+  "version": "1.0.0",
+  "type": "module",
+  "description": "AWS certification practice exam simulator with seeded question selection and a local JSON results database",
+  "scripts": {
+    "dev": "node server/index.js",
+    "build": "vite build",
+    "start": "node server/index.js --prod",
+    "test": "node --test \"tests/*.test.mjs\"",
+    "make-sample": "node scripts/make-sample.mjs"
+  },
+  "dependencies": {
+    "express": "^5.3.0",
+    "react": "^19.3.1",
+    "react-dom": "^19.3.1"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-react": "^6.1.2",
+    "vite": "^8.3.5"
+  }
+}

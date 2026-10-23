@@ -1,0 +1,2231 @@
+{
+  "version": 1,
+  "attempts": [
+    {
+      "id": "bb7451fb-733f-41d3-868c-fdf16ee2bae1",
+      "createdAt": "2026-10-23T08:27:38.524Z",
+      "startedAt": "2026-10-23T08:26:24.070Z",
+      "finishReason": "submitted",
+      "certId": "dva-c02",
+      "certCode": "DVA-C02",
+      "certName": "Developer – Associate",
+      "csvName": "sample-exam.csv",
+      "csvHash": "0390191972dadb",
+      "seed": "ADEE-2BG5",
+      "totalQuestions": 65,
+      "scoredCount": 50,
+      "durationSec": 7800,
+      "timeUsedSec": 74,
+      "passingScore": 720,
+      "answeredCount": 7,
+      "scoredCorrect": 5,
+      "unscoredCorrect": 2,
+      "scaledScore": 190,
+      "passed": false,
+      "domainBreakdown": [
+        {
+          "domain": "Cloud Technology and Services",
+          "correct": 3,
+          "total": 39
+        },
+        {
+          "domain": "Security and Compliance",
+          "correct": 2,
+          "total": 10
+        },
+        {
+          "domain": "Billing, Pricing, and Support",
+          "correct": 0,
+          "total": 1
+        }
+      ],
+      "answers": [
+        {
+          "position": 1,
+          "id": "40",
+          "scored": true,
+          "domain": "Cloud Technology and Services",
+          "text": "Which AWS service provides access to foundation models through a single API for building generative AI applications?",
+          "options": [
+            {
+              "key": "A",
+              "text": "AWS CloudTrail"
+            },
+            {
+              "key": "B",
+              "text": "Amazon GuardDuty"
+            },
+            {
+              "key": "C",
+              "text": "AWS IAM"
+            },
+            {
+              "key": "D",
+              "text": "Amazon Bedrock"
+            }
+          ],
+          "correct": [
+            "D"
+          ],
+          "selected": [
+            "D"
+          ],
+          "isCorrect": true,
+          "flagged": false,
+          "timeSpentSec": 21,
+          "explanation": "Amazon Bedrock provides access to foundation models through a single API for building generative AI applications."
+        },
+        {
+          "position": 2,
+          "id": "26",
+          "scored": false,
+          "domain": "Cloud Technology and Services",
+          "text": "Which AWS service centralizes and automates data backup across AWS services?",
+          "options": [
+            {
+              "key": "A",
+              "text": "Amazon SQS"
+            },
+            {
+              "key": "B",
+              "text": "AWS Database Migration Service"
+            },
+            {
+              "key": "C",
+              "text": "AWS Backup"
+            },
+            {
+              "key": "D",
+              "text": "Amazon EKS"
+            }
+          ],
+          "correct": [
+            "C"
+          ],
+          "selected": [
+            "C"
+          ],
+          "isCorrect": true,
+          "flagged": false,
+          "timeSpentSec": 6,
+          "explanation": "AWS Backup centralizes and automates data backup across AWS services."
+        },
+        {
+          "position": 3,
+          "id": "28",
+          "scored": true,
+          "domain": "Security and Compliance",
+          "text": "Which AWS service controls access to AWS services and resources through users, roles, and policies?",
+          "options": [
+            {
+              "key": "A",
+              "text": "AWS Control Tower"
+            },
+            {
+              "key": "B",
+              "text": "Amazon CloudFront"
+            },
+            {
+              "key": "C",
+              "text": "AWS IAM"
+            },
+            {
+              "key": "D",
+              "text": "Amazon Lex"
+            }
+          ],
+          "correct": [
+            "C"
+          ],
+          "selected": [
+            "C"
+          ],
+          "isCorrect": true,
+          "flagged": false,
+          "timeSpentSec": 6,
+          "explanation": "AWS IAM controls access to AWS services and resources through users, roles, and policies."
+        },
+        {
+          "position": 4,
+          "id": "47",
+          "scored": true,
+          "domain": "Security and Compliance",
+          "text": "Which AWS service provides managed protection against DDoS attacks?",
+          "options": [
+            {
+              "key": "A",
+              "text": "Amazon Route 53"
+            },
+            {
+              "key": "B",
+              "text": "AWS Shield"
+            },
+            {
+              "key": "C",
+              "text": "Amazon EMR"
+            },
+            {
+              "key": "D",
+              "text": "Amazon VPC"
+            }
+          ],
+          "correct": [
+            "B"
+          ],
+          "selected": [
+            "B"
+          ],
+          "isCorrect": true,
+          "flagged": false,
+          "timeSpentSec": 7,
+          "explanation": "AWS Shield provides managed protection against DDoS attacks."
+        },
+        {
+          "position": 5,
+          "id": "23",
+          "scored": true,
+          "domain": "Cloud Technology and Services",
+          "text": "Which AWS service orchestrates serverless workflows by coordinating multiple AWS services?",
+          "options": [
+            {
+              "key": "A",
+              "text": "AWS Step Functions"
+            },
+            {
+              "key": "B",
+              "text": "AWS Artifact"
+            },
+            {
+              "key": "C",
+              "text": "AWS KMS"
+            },
+            {
+              "key": "D",
+              "text": "Amazon CloudWatch"
+            }
+          ],
+          "correct": [
+            "A"
+          ],
+          "selected": [
+            "A"
+          ],
+          "isCorrect": true,
+          "flagged": false,
+          "timeSpentSec": 11,
+          "explanation": "AWS Step Functions orchestrates serverless workflows by coordinating multiple AWS services."
+        },
+        {
+          "position": 6,
+          "id": "59",
+          "scored": true,
+          "domain": "Cloud Technology and Services",
+          "text": "Which AWS service is a fully managed NoSQL key-value and document database with single-digit millisecond performance?",
+          "options": [
+            {
+              "key": "A",
+              "text": "AWS Secrets Manager"
+            },
+            {
+              "key": "B",
+              "text": "AWS Organizations"
+            },
+            {
+              "key": "C",
+              "text": "Amazon DynamoDB"
+            },
+            {
+              "key": "D",
+              "text": "Amazon VPC"
+            }
+          ],
+          "correct": [
+            "C"
+          ],
+          "selected": [
+            "C"
+          ],
+          "isCorrect": true,
+          "flagged": false,
+          "timeSpentSec": 10,
+          "explanation": "Amazon DynamoDB is a fully managed NoSQL key-value and document database with single-digit millisecond performance."
+        },
+        {
+          "position": 7,
+          "id": "33",
+          "scored": false,
+          "domain": "Cloud Technology and Services",
+          "text": "Which AWS service analyzes images and videos to identify objects, people, and text?",
+          "options": [
+            {
+              "key": "A",
+              "text": "Amazon Inspector"
+            },
+            {
+              "key": "B",
+              "text": "Amazon Rekognition"
+            },
+            {
+              "key": "C",
+              "text": "AWS WAF"
+            },
+            {
+              "key": "D",
+              "text": "Amazon ECS"
+            }
+          ],
+          "correct": [
+            "B"
+          ],
+          "selected": [
+            "B"
+          ],
+          "isCorrect": true,
+          "flagged": false,
+          "timeSpentSec": 7,
+          "explanation": "Amazon Rekognition analyzes images and videos to identify objects, people, and text."
+        },
+        {
+          "position": 8,
+          "id": "35",
+          "scored": true,
+          "domain": "Cloud Technology and Services",
+          "text": "Which AWS service offers virtual private servers with simple, predictable pricing for small projects?",
+          "options": [
+            {
+              "key": "A",
+              "text": "Amazon QuickSight"
+            },
+            {
+              "key": "B",
+              "text": "Amazon EBS"
+            },
+            {
+              "key": "C",
+              "text": "AWS Storage Gateway"
+            },
+            {
+              "key": "D",
+              "text": "Amazon Lightsail"
+            }
+          ],
+          "correct": [
+            "D"
+          ],
+          "selected": [],
+          "isCorrect": false,
+          "flagged": false,
+          "timeSpentSec": 5,
+          "explanation": "Amazon Lightsail offers virtual private servers with simple, predictable pricing for small projects."
+        },
+        {
+          "position": 9,
+          "id": "54",
+          "scored": false,
+          "domain": "Cloud Technology and Services",
+          "text": "Which AWS service is a MySQL- and PostgreSQL-compatible relational database built for the cloud?",
+          "options": [
+            {
+              "key": "A",
+              "text": "Amazon Aurora"
+            },
+            {
+              "key": "B",
+              "text": "Amazon ECS"
+            },
+            {
+              "key": "C",
+              "text": "AWS Direct Connect"
+            },
+            {
+              "key": "D",
+              "text": "AWS Step Functions"
+            }
+          ],
+          "correct": [
+            "A"
+          ],
+          "selected": [],
+          "isCorrect": false,
+          "flagged": false,
+          "timeSpentSec": 0,
+          "explanation": "Amazon Aurora is a MySQL- and PostgreSQL-compatible relational database built for the cloud."
+        },
+        {
+          "position": 10,
+          "id": "39",
+          "scored": true,
+          "domain": "Cloud Technology and Services",
+          "text": "Which AWS service collects and processes large streams of data records in real time?",
+          "options": [
+            {
+              "key": "A",
+              "text": "AWS Step Functions"
+            },
+            {
+              "key": "B",
+              "text": "Amazon EC2"
+            },
+            {
+              "key": "C",
+              "text": "Amazon Kinesis Data Streams"
+            },
+            {
+              "key": "D",
+              "text": "AWS Lambda"
+            }
+          ],
+          "correct": [
+            "C"
+          ],
+          "selected": [],
+          "isCorrect": false,
+          "flagged": false,
+          "timeSpentSec": 0,
+          "explanation": "Amazon Kinesis Data Streams collects and processes large streams of data records in real time."
+        },
+        {
+          "position": 11,
+          "id": "38",
+          "scored": true,
+          "domain": "Cloud Technology and Services",
+          "text": "Which AWS service lets you centrally manage and govern multiple AWS accounts?",
+          "options": [
+            {
+              "key": "A",
+              "text": "AWS Organizations"
+            },
+            {
+              "key": "B",
+              "text": "Amazon Inspector"
+            },
+            {
+              "key": "C",
+              "text": "AWS Cost Explorer"
+            },
+            {
+              "key": "D",
+              "text": "AWS Step Functions"
+            }
+          ],
+          "correct": [
+            "A"
+          ],
+          "selected": [],
+          "isCorrect": false,
+          "flagged": false,
+          "timeSpentSec": 0,
+          "explanation": "AWS Organizations lets you centrally manage and govern multiple AWS accounts."
+        },
+        {
+          "position": 12,
+          "id": "60",
+          "scored": false,
+          "domain": "Cloud Technology and Services",
+          "text": "Which AWS service helps you migrate databases to AWS quickly and securely?",
+          "options": [
+            {
+              "key": "A",
+              "text": "AWS Database Migration Service"
+            },
+            {
+              "key": "B",
+              "text": "Amazon Lightsail"
+            },
+            {
+              "key": "C",
+              "text": "Amazon SageMaker"
+            },
+            {
+              "key": "D",
+              "text": "AWS Organizations"
+            }
+          ],
+          "correct": [
+            "A"
+          ],
+          "selected": [],
+          "isCorrect": false,
+          "flagged": false,
+          "timeSpentSec": 0,
+          "explanation": "AWS Database Migration Service helps you migrate databases to AWS quickly and securely."
+        },
+        {
+          "position": 13,
+          "id": "34",
+          "scored": true,
+          "domain": "Cloud Technology and Services",
+          "text": "Which AWS service automates and accelerates moving data between on-premises storage and AWS storage services?",
+          "options": [
+            {
+              "key": "A",
+              "text": "AWS Backup"
+            },
+            {
+              "key": "B",
+              "text": "AWS Config"
+            },
+            {
+              "key": "C",
+              "text": "AWS DataSync"
+            },
+            {
+              "key": "D",
+              "text": "Amazon EC2"
+            }
+          ],
+          "correct": [
+            "C"
+          ],
+          "selected": [],
+          "isCorrect": false,
+          "flagged": false,
+          "timeSpentSec": 0,
+          "explanation": "AWS DataSync automates and accelerates moving data between on-premises storage and AWS storage services."
+        },
+        {
+          "position": 14,
+          "id": "52",
+          "scored": true,
+          "domain": "Cloud Technology and Services",
+          "text": "Which AWS service is a business intelligence service for building interactive dashboards?",
+          "options": [
+            {
+              "key": "A",
+              "text": "Amazon S3"
+            },
+            {
+              "key": "B",
+              "text": "Amazon EC2"
+            },
+            {
+              "key": "C",
+              "text": "AWS Control Tower"
+            },
+            {
+              "key": "D",
+              "text": "Amazon QuickSight"
+            }
+          ],
+          "correct": [
+            "D"
+          ],
+          "selected": [],
+          "isCorrect": false,
+          "flagged": false,
+          "timeSpentSec": 0,
+          "explanation": "Amazon QuickSight is a business intelligence service for building interactive dashboards."
+        },
+        {
+          "position": 15,
+          "id": "9",
+          "scored": true,
+          "domain": "Cloud Technology and Services",
+          "text": "Which AWS service lets you build, train, and deploy machine learning models?",
+          "options": [
+            {
+              "key": "A",
+              "text": "AWS Direct Connect"
+            },
+            {
+              "key": "B",
+              "text": "Amazon Cognito"
+            },
+            {
+              "key": "C",
+              "text": "AWS Control Tower"
+            },
+            {
+              "key": "D",
+              "text": "Amazon SageMaker"
+            }
+          ],
+          "correct": [
+            "D"
+          ],
+          "selected": [],
+          "isCorrect": false,
+          "flagged": false,
+          "timeSpentSec": 0,
+          "explanation": "Amazon SageMaker lets you build, train, and deploy machine learning models."
+        },
+        {
+          "position": 16,
+          "id": "32",
+          "scored": true,
+          "domain": "Cloud Technology and Services",
+          "text": "Which AWS service builds conversational chatbots using voice and text?",
+          "options": [
+            {
+              "key": "A",
+              "text": "AWS Organizations"
+            },
+            {
+              "key": "B",
+              "text": "Amazon Lex"
+            },
+            {
+              "key": "C",
+              "text": "AWS Artifact"
+            },
+            {
+              "key": "D",
+              "text": "AWS Config"
+            }
+          ],
+          "correct": [
+            "B"
+          ],
+          "selected": [],
+          "isCorrect": false,
+          "flagged": false,
+          "timeSpentSec": 0,
+          "explanation": "Amazon Lex builds conversational chatbots using voice and text."
+        },
+        {
+          "position": 17,
+          "id": "17",
+          "scored": true,
+          "domain": "Cloud Technology and Services",
+          "text": "Which AWS service records account activity and API calls for governance and auditing?",
+          "options": [
+            {
+              "key": "A",
+              "text": "Amazon Comprehend"
+            },
+            {
+              "key": "B",
+              "text": "Amazon SNS"
+            },
+            {
+              "key": "C",
+              "text": "AWS CloudTrail"
+            },
+            {
+              "key": "D",
+              "text": "AWS Step Functions"
+            }
+          ],
+          "correct": [
+            "C"
+          ],
+          "selected": [],
+          "isCorrect": false,
+          "flagged": false,
+          "timeSpentSec": 0,
+          "explanation": "AWS CloudTrail records account activity and API calls for governance and auditing."
+        },
+        {
+          "position": 18,
+          "id": "4",
+          "scored": true,
+          "domain": "Cloud Technology and Services",
+          "text": "Which AWS service extends AWS infrastructure and services to on-premises facilities?",
+          "options": [
+            {
+              "key": "A",
+              "text": "Amazon Rekognition"
+            },
+            {
+              "key": "B",
+              "text": "Amazon SQS"
+            },
+            {
+              "key": "C",
+              "text": "AWS Outposts"
+            },
+            {
+              "key": "D",
+              "text": "Amazon EventBridge"
+            }
+          ],
+          "correct": [
+            "C"
+          ],
+          "selected": [],
+          "isCorrect": false,
+          "flagged": false,
+          "timeSpentSec": 0,
+          "explanation": "AWS Outposts extends AWS infrastructure and services to on-premises facilities."
+        },
+        {
+          "position": 19,
+          "id": "1",
+          "scored": true,
+          "domain": "Cloud Technology and Services",
+          "text": "Which AWS service is a serverless data integration service used to discover, prepare, and transform data for analytics?",
+          "options": [
+            {
+              "key": "A",
+              "text": "Amazon Aurora"
+            },
+            {
+              "key": "B",
+              "text": "AWS KMS"
+            },
+            {
+              "key": "C",
+              "text": "Amazon Lightsail"
+            },
+            {
+              "key": "D",
+              "text": "AWS Glue"
+            }
+          ],
+          "correct": [
+            "D"
+          ],
+          "selected": [],
+          "isCorrect": false,
+          "flagged": false,
+          "timeSpentSec": 0,
+          "explanation": "AWS Glue is a serverless data integration service used to discover, prepare, and transform data for analytics."
+        },
+        {
+          "position": 20,
+          "id": "57",
+          "scored": false,
+          "domain": "Billing, Pricing, and Support",
+          "text": "Which AWS service lets you set custom cost and usage budgets and receive alerts when thresholds are exceeded?",
+          "options": [
+            {
+              "key": "A",
+              "text": "AWS Elastic Beanstalk"
+            },
+            {
+              "key": "B",
+              "text": "AWS Budgets"
+            },
+            {
+              "key": "C",
+              "text": "Amazon SageMaker"
+            },
+            {
+              "key": "D",
+              "text": "AWS Transit Gateway"
+            }
+          ],
+          "correct": [
+            "B"
+          ],
+          "selected": [],
+          "isCorrect": false,
+          "flagged": false,
+          "timeSpentSec": 0,
+          "explanation": "AWS Budgets lets you set custom cost and usage budgets and receive alerts when thresholds are exceeded."
+        },
+        {
+          "position": 21,
+          "id": "41",
+          "scored": false,
+          "domain": "Cloud Technology and Services",
+          "text": "Which AWS service provides neural machine translation between languages?",
+          "options": [
+            {
+              "key": "A",
+              "text": "AWS CloudTrail"
+            },
+            {
+              "key": "B",
+              "text": "AWS WAF"
+            },
+            {
+              "key": "C",
+              "text": "Amazon Translate"
+            },
+            {
+              "key": "D",
+              "text": "Amazon WorkSpaces"
+            }
+          ],
+          "correct": [
+            "C"
+          ],
+          "selected": [],
+          "isCorrect": false,
+          "flagged": false,
+          "timeSpentSec": 0,
+          "explanation": "Amazon Translate provides neural machine translation between languages."
+        },
+        {
+          "position": 22,
+          "id": "58",
+          "scored": true,
+          "domain": "Cloud Technology and Services",
+          "text": "Which AWS service provides managed in-memory data stores for caching, compatible with open-source engines such as Redis and Memcached?",
+          "options": [
+            {
+              "key": "A",
+              "text": "Amazon ElastiCache"
+            },
+            {
+              "key": "B",
+              "text": "Amazon Inspector"
+            },
+            {
+              "key": "C",
+              "text": "Amazon Lex"
+            },
+            {
+              "key": "D",
+              "text": "Amazon VPC"
+            }
+          ],
+          "correct": [
+            "A"
+          ],
+          "selected": [],
+          "isCorrect": false,
+          "flagged": false,
+          "timeSpentSec": 0,
+          "explanation": "Amazon ElastiCache provides managed in-memory data stores for caching, compatible with open-source engines such as Redis and Memcached."
+        },
+        {
+          "position": 23,
+          "id": "30",
+          "scored": true,
+          "domain": "Cloud Technology and Services",
+          "text": "Which AWS service converts text into lifelike speech?",
+          "options": [
+            {
+              "key": "A",
+              "text": "AWS Lambda"
+            },
+            {
+              "key": "B",
+              "text": "Amazon Polly"
+            },
+            {
+              "key": "C",
+              "text": "Amazon S3 Glacier"
+            },
+            {
+              "key": "D",
+              "text": "AWS CloudTrail"
+            }
+          ],
+          "correct": [
+            "B"
+          ],
+          "selected": [],
+          "isCorrect": false,
+          "flagged": false,
+          "timeSpentSec": 0,
+          "explanation": "Amazon Polly converts text into lifelike speech."
+        },
+        {
+          "position": 24,
+          "id": "11",
+          "scored": false,
+          "domain": "Cloud Technology and Services",
+          "text": "Which AWS service establishes a dedicated private network connection from your premises to AWS?",
+          "options": [
+            {
+              "key": "A",
+              "text": "AWS KMS"
+            },
+            {
+              "key": "B",
+              "text": "Amazon Lightsail"
+            },
+            {
+              "key": "C",
+              "text": "Amazon S3"
+            },
+            {
+              "key": "D",
+              "text": "AWS Direct Connect"
+            }
+          ],
+          "correct": [
+            "D"
+          ],
+          "selected": [],
+          "isCorrect": false,
+          "flagged": false,
+          "timeSpentSec": 0,
+          "explanation": "AWS Direct Connect establishes a dedicated private network connection from your premises to AWS."
+        },
+        {
+          "position": 25,
+          "id": "12",
+          "scored": true,
+          "domain": "Security and Compliance",
+          "text": "Which AWS service protects web applications from common web exploits using customizable rules?",
+          "options": [
+            {
+              "key": "A",
+              "text": "AWS WAF"
+            },
+            {
+              "key": "B",
+              "text": "Amazon DynamoDB"
+            },
+            {
+              "key": "C",
+              "text": "Amazon Translate"
+            },
+            {
+              "key": "D",
+              "text": "AWS Site-to-Site VPN"
+            }
+          ],
+          "correct": [
+            "A"
+          ],
+          "selected": [],
+          "isCorrect": false,
+          "flagged": false,
+          "timeSpentSec": 0,
+          "explanation": "AWS WAF protects web applications from common web exploits using customizable rules."
+        },
+        {
+          "position": 26,
+          "id": "10",
+          "scored": true,
+          "domain": "Cloud Technology and Services",
+          "text": "Which AWS service is a publish/subscribe messaging and notification service?",
+          "options": [
+            {
+              "key": "A",
+              "text": "Amazon SNS"
+            },
+            {
+              "key": "B",
+              "text": "Amazon SageMaker"
+            },
+            {
+              "key": "C",
+              "text": "AWS Direct Connect"
+            },
+            {
+              "key": "D",
+              "text": "AWS Cost Explorer"
+            }
+          ],
+          "correct": [
+            "A"
+          ],
+          "selected": [],
+          "isCorrect": false,
+          "flagged": false,
+          "timeSpentSec": 0,
+          "explanation": "Amazon SNS is a publish/subscribe messaging and notification service."
+        },
+        {
+          "position": 27,
+          "id": "24",
+          "scored": true,
+          "domain": "Security and Compliance",
+          "text": "Which AWS service provides on-demand access to AWS compliance reports and agreements?",
+          "options": [
+            {
+              "key": "A",
+              "text": "Amazon EFS"
+            },
+            {
+              "key": "B",
+              "text": "Amazon EventBridge"
+            },
+            {
+              "key": "C",
+              "text": "AWS Transit Gateway"
+            },
+            {
+              "key": "D",
+              "text": "AWS Artifact"
+            }
+          ],
+          "correct": [
+            "D"
+          ],
+          "selected": [],
+          "isCorrect": false,
+          "flagged": false,
+          "timeSpentSec": 0,
+          "explanation": "AWS Artifact provides on-demand access to AWS compliance reports and agreements."
+        },
+        {
+          "position": 28,
+          "id": "46",
+          "scored": false,
+          "domain": "Cloud Technology and Services",
+          "text": "Which AWS service provides secure file transfers into and out of AWS storage using SFTP, FTPS, and FTP?",
+          "options": [
+            {
+              "key": "A",
+              "text": "AWS Transfer Family"
+            },
+            {
+              "key": "B",
+              "text": "AWS CloudFormation"
+            },
+            {
+              "key": "C",
+              "text": "Amazon GuardDuty"
+            },
+            {
+              "key": "D",
+              "text": "Amazon EMR"
+            }
+          ],
+          "correct": [
+            "A"
+          ],
+          "selected": [],
+          "isCorrect": false,
+          "flagged": false,
+          "timeSpentSec": 0,
+          "explanation": "AWS Transfer Family provides secure file transfers into and out of AWS storage using SFTP, FTPS, and FTP."
+        },
+        {
+          "position": 29,
+          "id": "27",
+          "scored": true,
+          "domain": "Cloud Technology and Services",
+          "text": "Which AWS service converts speech to text?",
+          "options": [
+            {
+              "key": "A",
+              "text": "AWS KMS"
+            },
+            {
+              "key": "B",
+              "text": "AWS Storage Gateway"
+            },
+            {
+              "key": "C",
+              "text": "Amazon ECS"
+            },
+            {
+              "key": "D",
+              "text": "Amazon Transcribe"
+            }
+          ],
+          "correct": [
+            "D"
+          ],
+          "selected": [],
+          "isCorrect": false,
+          "flagged": false,
+          "timeSpentSec": 0,
+          "explanation": "Amazon Transcribe converts speech to text."
+        },
+        {
+          "position": 30,
+          "id": "53",
+          "scored": true,
+          "domain": "Cloud Technology and Services",
+          "text": "Which AWS service lets you create, publish, and manage APIs at any scale?",
+          "options": [
+            {
+              "key": "A",
+              "text": "Amazon EKS"
+            },
+            {
+              "key": "B",
+              "text": "Amazon API Gateway"
+            },
+            {
+              "key": "C",
+              "text": "Amazon S3 Glacier"
+            },
+            {
+              "key": "D",
+              "text": "AWS Storage Gateway"
+            }
+          ],
+          "correct": [
+            "B"
+          ],
+          "selected": [],
+          "isCorrect": false,
+          "flagged": false,
+          "timeSpentSec": 0,
+          "explanation": "Amazon API Gateway lets you create, publish, and manage APIs at any scale."
+        },
+        {
+          "position": 31,
+          "id": "61",
+          "scored": true,
+          "domain": "Cloud Technology and Services",
+          "text": "Which TWO of the following are AWS storage services? (Choose two.)",
+          "options": [
+            {
+              "key": "A",
+              "text": "Amazon EFS"
+            },
+            {
+              "key": "B",
+              "text": "Amazon Inspector"
+            },
+            {
+              "key": "C",
+              "text": "Amazon S3 Glacier"
+            },
+            {
+              "key": "D",
+              "text": "Amazon Textract"
+            },
+            {
+              "key": "E",
+              "text": "Amazon SageMaker"
+            }
+          ],
+          "correct": [
+            "A",
+            "C"
+          ],
+          "selected": [],
+          "isCorrect": false,
+          "flagged": false,
+          "timeSpentSec": 0,
+          "explanation": "Amazon S3 Glacier and Amazon EFS are storage services."
+        },
+        {
+          "position": 32,
+          "id": "65",
+          "scored": true,
+          "domain": "Cloud Technology and Services",
+          "text": "Which TWO of the following are AWS networking and content delivery services? (Choose two.)",
+          "options": [
+            {
+              "key": "A",
+              "text": "Amazon Lightsail"
+            },
+            {
+              "key": "B",
+              "text": "Amazon CloudFront"
+            },
+            {
+              "key": "C",
+              "text": "AWS Lambda"
+            },
+            {
+              "key": "D",
+              "text": "Amazon Lex"
+            },
+            {
+              "key": "E",
+              "text": "Amazon Route 53"
+            }
+          ],
+          "correct": [
+            "B",
+            "E"
+          ],
+          "selected": [],
+          "isCorrect": false,
+          "flagged": false,
+          "timeSpentSec": 0,
+          "explanation": "Amazon CloudFront and Amazon Route 53 are networking and content delivery services."
+        },
+        {
+          "position": 33,
+          "id": "21",
+          "scored": true,
+          "domain": "Cloud Technology and Services",
+          "text": "Which AWS service runs containers without requiring you to manage servers or clusters of EC2 instances?",
+          "options": [
+            {
+              "key": "A",
+              "text": "AWS Fargate"
+            },
+            {
+              "key": "B",
+              "text": "Amazon Athena"
+            },
+            {
+              "key": "C",
+              "text": "Amazon QuickSight"
+            },
+            {
+              "key": "D",
+              "text": "AWS Organizations"
+            }
+          ],
+          "correct": [
+            "A"
+          ],
+          "selected": [],
+          "isCorrect": false,
+          "flagged": false,
+          "timeSpentSec": 0,
+          "explanation": "AWS Fargate runs containers without requiring you to manage servers or clusters of EC2 instances."
+        },
+        {
+          "position": 34,
+          "id": "7",
+          "scored": true,
+          "domain": "Cloud Technology and Services",
+          "text": "Which AWS service is a scalable Domain Name System (DNS) web service?",
+          "options": [
+            {
+              "key": "A",
+              "text": "Amazon Lex"
+            },
+            {
+              "key": "B",
+              "text": "Amazon Inspector"
+            },
+            {
+              "key": "C",
+              "text": "Amazon Route 53"
+            },
+            {
+              "key": "D",
+              "text": "AWS Outposts"
+            }
+          ],
+          "correct": [
+            "C"
+          ],
+          "selected": [],
+          "isCorrect": false,
+          "flagged": false,
+          "timeSpentSec": 0,
+          "explanation": "Amazon Route 53 is a scalable Domain Name System (DNS) web service."
+        },
+        {
+          "position": 35,
+          "id": "6",
+          "scored": true,
+          "domain": "Cloud Technology and Services",
+          "text": "Which AWS service creates an encrypted connection between your network and your VPCs over the internet?",
+          "options": [
+            {
+              "key": "A",
+              "text": "Amazon Transcribe"
+            },
+            {
+              "key": "B",
+              "text": "AWS Site-to-Site VPN"
+            },
+            {
+              "key": "C",
+              "text": "AWS Trusted Advisor"
+            },
+            {
+              "key": "D",
+              "text": "AWS Secrets Manager"
+            }
+          ],
+          "correct": [
+            "B"
+          ],
+          "selected": [],
+          "isCorrect": false,
+          "flagged": false,
+          "timeSpentSec": 0,
+          "explanation": "AWS Site-to-Site VPN creates an encrypted connection between your network and your VPCs over the internet."
+        },
+        {
+          "position": 36,
+          "id": "19",
+          "scored": true,
+          "domain": "Cloud Technology and Services",
+          "text": "Which AWS service provides persistent block storage volumes for use with Amazon EC2 instances?",
+          "options": [
+            {
+              "key": "A",
+              "text": "AWS KMS"
+            },
+            {
+              "key": "B",
+              "text": "Amazon Textract"
+            },
+            {
+              "key": "C",
+              "text": "Amazon EBS"
+            },
+            {
+              "key": "D",
+              "text": "AWS Budgets"
+            }
+          ],
+          "correct": [
+            "C"
+          ],
+          "selected": [],
+          "isCorrect": false,
+          "flagged": false,
+          "timeSpentSec": 0,
+          "explanation": "Amazon EBS provides persistent block storage volumes for use with Amazon EC2 instances."
+        },
+        {
+          "position": 37,
+          "id": "18",
+          "scored": false,
+          "domain": "Cloud Technology and Services",
+          "text": "Which AWS service deploys and scales web applications when you simply upload your code?",
+          "options": [
+            {
+              "key": "A",
+              "text": "Amazon Rekognition"
+            },
+            {
+              "key": "B",
+              "text": "Amazon WorkSpaces"
+            },
+            {
+              "key": "C",
+              "text": "AWS Elastic Beanstalk"
+            },
+            {
+              "key": "D",
+              "text": "Amazon Lex"
+            }
+          ],
+          "correct": [
+            "C"
+          ],
+          "selected": [],
+          "isCorrect": false,
+          "flagged": false,
+          "timeSpentSec": 0,
+          "explanation": "AWS Elastic Beanstalk deploys and scales web applications when you simply upload your code."
+        },
+        {
+          "position": 38,
+          "id": "36",
+          "scored": true,
+          "domain": "Security and Compliance",
+          "text": "Which AWS service uses machine learning to discover and protect sensitive data stored in Amazon S3?",
+          "options": [
+            {
+              "key": "A",
+              "text": "AWS Glue"
+            },
+            {
+              "key": "B",
+              "text": "Amazon Macie"
+            },
+            {
+              "key": "C",
+              "text": "AWS Fargate"
+            },
+            {
+              "key": "D",
+              "text": "AWS CloudTrail"
+            }
+          ],
+          "correct": [
+            "B"
+          ],
+          "selected": [],
+          "isCorrect": false,
+          "flagged": false,
+          "timeSpentSec": 0,
+          "explanation": "Amazon Macie uses machine learning to discover and protect sensitive data stored in Amazon S3."
+        },
+        {
+          "position": 39,
+          "id": "45",
+          "scored": true,
+          "domain": "Cloud Technology and Services",
+          "text": "Which AWS service connects VPCs and on-premises networks through a central hub?",
+          "options": [
+            {
+              "key": "A",
+              "text": "AWS Trusted Advisor"
+            },
+            {
+              "key": "B",
+              "text": "AWS Transit Gateway"
+            },
+            {
+              "key": "C",
+              "text": "AWS Systems Manager"
+            },
+            {
+              "key": "D",
+              "text": "Amazon Rekognition"
+            }
+          ],
+          "correct": [
+            "B"
+          ],
+          "selected": [],
+          "isCorrect": false,
+          "flagged": false,
+          "timeSpentSec": 0,
+          "explanation": "AWS Transit Gateway connects VPCs and on-premises networks through a central hub."
+        },
+        {
+          "position": 40,
+          "id": "29",
+          "scored": false,
+          "domain": "Cloud Technology and Services",
+          "text": "Which AWS service lets you provision a logically isolated virtual network in the AWS Cloud?",
+          "options": [
+            {
+              "key": "A",
+              "text": "Amazon VPC"
+            },
+            {
+              "key": "B",
+              "text": "Amazon SQS"
+            },
+            {
+              "key": "C",
+              "text": "AWS Cost Explorer"
+            },
+            {
+              "key": "D",
+              "text": "Amazon Textract"
+            }
+          ],
+          "correct": [
+            "A"
+          ],
+          "selected": [],
+          "isCorrect": false,
+          "flagged": false,
+          "timeSpentSec": 0,
+          "explanation": "Amazon VPC lets you provision a logically isolated virtual network in the AWS Cloud."
+        },
+        {
+          "position": 41,
+          "id": "43",
+          "scored": false,
+          "domain": "Cloud Technology and Services",
+          "text": "Which AWS service provides resizable virtual servers in the cloud?",
+          "options": [
+            {
+              "key": "A",
+              "text": "Elastic Load Balancing"
+            },
+            {
+              "key": "B",
+              "text": "AWS Glue"
+            },
+            {
+              "key": "C",
+              "text": "Amazon CloudWatch"
+            },
+            {
+              "key": "D",
+              "text": "Amazon EC2"
+            }
+          ],
+          "correct": [
+            "D"
+          ],
+          "selected": [],
+          "isCorrect": false,
+          "flagged": false,
+          "timeSpentSec": 0,
+          "explanation": "Amazon EC2 provides resizable virtual servers in the cloud."
+        },
+        {
+          "position": 42,
+          "id": "16",
+          "scored": true,
+          "domain": "Cloud Technology and Services",
+          "text": "Which AWS service uses natural language processing to extract insights from text?",
+          "options": [
+            {
+              "key": "A",
+              "text": "AWS Storage Gateway"
+            },
+            {
+              "key": "B",
+              "text": "Amazon Comprehend"
+            },
+            {
+              "key": "C",
+              "text": "AWS Direct Connect"
+            },
+            {
+              "key": "D",
+              "text": "Amazon EC2 Auto Scaling"
+            }
+          ],
+          "correct": [
+            "B"
+          ],
+          "selected": [],
+          "isCorrect": false,
+          "flagged": false,
+          "timeSpentSec": 0,
+          "explanation": "Amazon Comprehend uses natural language processing to extract insights from text."
+        },
+        {
+          "position": 43,
+          "id": "13",
+          "scored": true,
+          "domain": "Security and Compliance",
+          "text": "Which AWS service creates and controls the cryptographic keys used to encrypt your data?",
+          "options": [
+            {
+              "key": "A",
+              "text": "Amazon SQS"
+            },
+            {
+              "key": "B",
+              "text": "AWS Trusted Advisor"
+            },
+            {
+              "key": "C",
+              "text": "AWS Database Migration Service"
+            },
+            {
+              "key": "D",
+              "text": "AWS KMS"
+            }
+          ],
+          "correct": [
+            "D"
+          ],
+          "selected": [],
+          "isCorrect": false,
+          "flagged": false,
+          "timeSpentSec": 0,
+          "explanation": "AWS KMS creates and controls the cryptographic keys used to encrypt your data."
+        },
+        {
+          "position": 44,
+          "id": "8",
+          "scored": false,
+          "domain": "Security and Compliance",
+          "text": "Which AWS service continuously monitors for malicious activity and unauthorized behavior using threat intelligence?",
+          "options": [
+            {
+              "key": "A",
+              "text": "Amazon EBS"
+            },
+            {
+              "key": "B",
+              "text": "AWS Storage Gateway"
+            },
+            {
+              "key": "C",
+              "text": "Amazon Athena"
+            },
+            {
+              "key": "D",
+              "text": "Amazon GuardDuty"
+            }
+          ],
+          "correct": [
+            "D"
+          ],
+          "selected": [],
+          "isCorrect": false,
+          "flagged": false,
+          "timeSpentSec": 0,
+          "explanation": "Amazon GuardDuty continuously monitors for malicious activity and unauthorized behavior using threat intelligence."
+        },
+        {
+          "position": 45,
+          "id": "25",
+          "scored": true,
+          "domain": "Cloud Technology and Services",
+          "text": "Which AWS service makes it easy to set up, operate, and scale managed relational databases?",
+          "options": [
+            {
+              "key": "A",
+              "text": "AWS Transit Gateway"
+            },
+            {
+              "key": "B",
+              "text": "Amazon Inspector"
+            },
+            {
+              "key": "C",
+              "text": "Amazon RDS"
+            },
+            {
+              "key": "D",
+              "text": "Amazon SQS"
+            }
+          ],
+          "correct": [
+            "C"
+          ],
+          "selected": [],
+          "isCorrect": false,
+          "flagged": false,
+          "timeSpentSec": 0,
+          "explanation": "Amazon RDS makes it easy to set up, operate, and scale managed relational databases."
+        },
+        {
+          "position": 46,
+          "id": "63",
+          "scored": true,
+          "domain": "Security and Compliance",
+          "text": "Which TWO of the following are AWS security services? (Choose two.)",
+          "options": [
+            {
+              "key": "A",
+              "text": "Amazon EC2 Auto Scaling"
+            },
+            {
+              "key": "B",
+              "text": "Amazon SNS"
+            },
+            {
+              "key": "C",
+              "text": "AWS Shield"
+            },
+            {
+              "key": "D",
+              "text": "Amazon EBS"
+            },
+            {
+              "key": "E",
+              "text": "AWS KMS"
+            }
+          ],
+          "correct": [
+            "C",
+            "E"
+          ],
+          "selected": [],
+          "isCorrect": false,
+          "flagged": false,
+          "timeSpentSec": 0,
+          "explanation": "AWS KMS and AWS Shield are security services."
+        },
+        {
+          "position": 47,
+          "id": "20",
+          "scored": true,
+          "domain": "Security and Compliance",
+          "text": "Which AWS service adds user sign-up, sign-in, and access control to web and mobile apps?",
+          "options": [
+            {
+              "key": "A",
+              "text": "Amazon Cognito"
+            },
+            {
+              "key": "B",
+              "text": "AWS DataSync"
+            },
+            {
+              "key": "C",
+              "text": "Amazon EC2 Auto Scaling"
+            },
+            {
+              "key": "D",
+              "text": "Amazon S3"
+            }
+          ],
+          "correct": [
+            "A"
+          ],
+          "selected": [],
+          "isCorrect": false,
+          "flagged": false,
+          "timeSpentSec": 0,
+          "explanation": "Amazon Cognito adds user sign-up, sign-in, and access control to web and mobile apps."
+        },
+        {
+          "position": 48,
+          "id": "22",
+          "scored": true,
+          "domain": "Cloud Technology and Services",
+          "text": "Which AWS service automatically distributes incoming traffic across multiple targets?",
+          "options": [
+            {
+              "key": "A",
+              "text": "Amazon Inspector"
+            },
+            {
+              "key": "B",
+              "text": "AWS Database Migration Service"
+            },
+            {
+              "key": "C",
+              "text": "Elastic Load Balancing"
+            },
+            {
+              "key": "D",
+              "text": "Amazon CloudWatch"
+            }
+          ],
+          "correct": [
+            "C"
+          ],
+          "selected": [],
+          "isCorrect": false,
+          "flagged": false,
+          "timeSpentSec": 0,
+          "explanation": "Elastic Load Balancing automatically distributes incoming traffic across multiple targets."
+        },
+        {
+          "position": 49,
+          "id": "55",
+          "scored": true,
+          "domain": "Cloud Technology and Services",
+          "text": "Which AWS service provisions resources from templates using infrastructure as code?",
+          "options": [
+            {
+              "key": "A",
+              "text": "AWS Backup"
+            },
+            {
+              "key": "B",
+              "text": "AWS Secrets Manager"
+            },
+            {
+              "key": "C",
+              "text": "AWS CloudFormation"
+            },
+            {
+              "key": "D",
+              "text": "Amazon QuickSight"
+            }
+          ],
+          "correct": [
+            "C"
+          ],
+          "selected": [],
+          "isCorrect": false,
+          "flagged": false,
+          "timeSpentSec": 0,
+          "explanation": "AWS CloudFormation provisions resources from templates using infrastructure as code."
+        },
+        {
+          "position": 50,
+          "id": "37",
+          "scored": true,
+          "domain": "Billing, Pricing, and Support",
+          "text": "Which AWS service lets you visualize, understand, and manage your AWS costs and usage over time?",
+          "options": [
+            {
+              "key": "A",
+              "text": "AWS Cost Explorer"
+            },
+            {
+              "key": "B",
+              "text": "AWS Transit Gateway"
+            },
+            {
+              "key": "C",
+              "text": "Amazon Transcribe"
+            },
+            {
+              "key": "D",
+              "text": "Amazon S3 Glacier"
+            }
+          ],
+          "correct": [
+            "A"
+          ],
+          "selected": [],
+          "isCorrect": false,
+          "flagged": false,
+          "timeSpentSec": 0,
+          "explanation": "AWS Cost Explorer lets you visualize, understand, and manage your AWS costs and usage over time."
+        },
+        {
+          "position": 51,
+          "id": "48",
+          "scored": true,
+          "domain": "Cloud Technology and Services",
+          "text": "Which AWS service sets up and governs a secure multi-account AWS environment?",
+          "options": [
+            {
+              "key": "A",
+              "text": "Amazon VPC"
+            },
+            {
+              "key": "B",
+              "text": "AWS Cost Explorer"
+            },
+            {
+              "key": "C",
+              "text": "AWS Control Tower"
+            },
+            {
+              "key": "D",
+              "text": "Amazon Neptune"
+            }
+          ],
+          "correct": [
+            "C"
+          ],
+          "selected": [],
+          "isCorrect": false,
+          "flagged": false,
+          "timeSpentSec": 0,
+          "explanation": "AWS Control Tower sets up and governs a secure multi-account AWS environment."
+        },
+        {
+          "position": 52,
+          "id": "15",
+          "scored": true,
+          "domain": "Cloud Technology and Services",
+          "text": "Which AWS service runs code in response to events without provisioning or managing servers?",
+          "options": [
+            {
+              "key": "A",
+              "text": "Amazon SQS"
+            },
+            {
+              "key": "B",
+              "text": "AWS Lambda"
+            },
+            {
+              "key": "C",
+              "text": "Amazon EMR"
+            },
+            {
+              "key": "D",
+              "text": "Amazon Cognito"
+            }
+          ],
+          "correct": [
+            "B"
+          ],
+          "selected": [],
+          "isCorrect": false,
+          "flagged": false,
+          "timeSpentSec": 0,
+          "explanation": "AWS Lambda runs code in response to events without provisioning or managing servers."
+        },
+        {
+          "position": 53,
+          "id": "3",
+          "scored": true,
+          "domain": "Security and Compliance",
+          "text": "Which AWS service automatically scans workloads for software vulnerabilities and unintended network exposure?",
+          "options": [
+            {
+              "key": "A",
+              "text": "AWS Cost Explorer"
+            },
+            {
+              "key": "B",
+              "text": "Amazon QuickSight"
+            },
+            {
+              "key": "C",
+              "text": "Amazon Transcribe"
+            },
+            {
+              "key": "D",
+              "text": "Amazon Inspector"
+            }
+          ],
+          "correct": [
+            "D"
+          ],
+          "selected": [],
+          "isCorrect": false,
+          "flagged": false,
+          "timeSpentSec": 0,
+          "explanation": "Amazon Inspector automatically scans workloads for software vulnerabilities and unintended network exposure."
+        },
+        {
+          "position": 54,
+          "id": "50",
+          "scored": false,
+          "domain": "Cloud Technology and Services",
+          "text": "Which AWS service gives you operational insight and lets you automate tasks across your AWS resources?",
+          "options": [
+            {
+              "key": "A",
+              "text": "Amazon API Gateway"
+            },
+            {
+              "key": "B",
+              "text": "Amazon SNS"
+            },
+            {
+              "key": "C",
+              "text": "AWS Direct Connect"
+            },
+            {
+              "key": "D",
+              "text": "AWS Systems Manager"
+            }
+          ],
+          "correct": [
+            "D"
+          ],
+          "selected": [],
+          "isCorrect": false,
+          "flagged": false,
+          "timeSpentSec": 0,
+          "explanation": "AWS Systems Manager gives you operational insight and lets you automate tasks across your AWS resources."
+        },
+        {
+          "position": 55,
+          "id": "2",
+          "scored": true,
+          "domain": "Cloud Technology and Services",
+          "text": "Which AWS service is a fully managed container orchestration service for running Docker containers?",
+          "options": [
+            {
+              "key": "A",
+              "text": "Amazon Translate"
+            },
+            {
+              "key": "B",
+              "text": "Amazon ECS"
+            },
+            {
+              "key": "C",
+              "text": "Amazon S3"
+            },
+            {
+              "key": "D",
+              "text": "Amazon Polly"
+            }
+          ],
+          "correct": [
+            "B"
+          ],
+          "selected": [],
+          "isCorrect": false,
+          "flagged": false,
+          "timeSpentSec": 0,
+          "explanation": "Amazon ECS is a fully managed container orchestration service for running Docker containers."
+        },
+        {
+          "position": 56,
+          "id": "14",
+          "scored": false,
+          "domain": "Cloud Technology and Services",
+          "text": "Which AWS service connects on-premises applications to cloud-backed storage as a hybrid storage service?",
+          "options": [
+            {
+              "key": "A",
+              "text": "AWS Storage Gateway"
+            },
+            {
+              "key": "B",
+              "text": "AWS Lambda"
+            },
+            {
+              "key": "C",
+              "text": "Amazon RDS"
+            },
+            {
+              "key": "D",
+              "text": "AWS Transfer Family"
+            }
+          ],
+          "correct": [
+            "A"
+          ],
+          "selected": [],
+          "isCorrect": false,
+          "flagged": false,
+          "timeSpentSec": 0,
+          "explanation": "AWS Storage Gateway connects on-premises applications to cloud-backed storage as a hybrid storage service."
+        },
+        {
+          "position": 57,
+          "id": "62",
+          "scored": true,
+          "domain": "Cloud Technology and Services",
+          "text": "Which TWO of the following are AWS database services? (Choose two.)",
+          "options": [
+            {
+              "key": "A",
+              "text": "AWS KMS"
+            },
+            {
+              "key": "B",
+              "text": "Elastic Load Balancing"
+            },
+            {
+              "key": "C",
+              "text": "Amazon RDS"
+            },
+            {
+              "key": "D",
+              "text": "AWS Cost Explorer"
+            },
+            {
+              "key": "E",
+              "text": "Amazon Neptune"
+            }
+          ],
+          "correct": [
+            "C",
+            "E"
+          ],
+          "selected": [],
+          "isCorrect": false,
+          "flagged": false,
+          "timeSpentSec": 0,
+          "explanation": "Amazon RDS and Amazon Neptune are database services."
+        },
+        {
+          "position": 58,
+          "id": "64",
+          "scored": true,
+          "domain": "Cloud Technology and Services",
+          "text": "Which TWO of the following are AWS machine learning services? (Choose two.)",
+          "options": [
+            {
+              "key": "A",
+              "text": "AWS Fargate"
+            },
+            {
+              "key": "B",
+              "text": "Amazon Rekognition"
+            },
+            {
+              "key": "C",
+              "text": "Amazon S3 Glacier"
+            },
+            {
+              "key": "D",
+              "text": "Amazon ECS"
+            },
+            {
+              "key": "E",
+              "text": "Amazon Lex"
+            }
+          ],
+          "correct": [
+            "B",
+            "E"
+          ],
+          "selected": [],
+          "isCorrect": false,
+          "flagged": false,
+          "timeSpentSec": 0,
+          "explanation": "Amazon Lex and Amazon Rekognition are machine learning services."
+        },
+        {
+          "position": 59,
+          "id": "56",
+          "scored": true,
+          "domain": "Cloud Technology and Services",
+          "text": "Which AWS service provides a simple, serverless, elastic NFS file system for Linux-based workloads?",
+          "options": [
+            {
+              "key": "A",
+              "text": "Elastic Load Balancing"
+            },
+            {
+              "key": "B",
+              "text": "Amazon EFS"
+            },
+            {
+              "key": "C",
+              "text": "AWS DataSync"
+            },
+            {
+              "key": "D",
+              "text": "Amazon QuickSight"
+            }
+          ],
+          "correct": [
+            "B"
+          ],
+          "selected": [],
+          "isCorrect": false,
+          "flagged": false,
+          "timeSpentSec": 0,
+          "explanation": "Amazon EFS provides a simple, serverless, elastic NFS file system for Linux-based workloads."
+        },
+        {
+          "position": 60,
+          "id": "49",
+          "scored": true,
+          "domain": "Security and Compliance",
+          "text": "Which AWS service helps you store, rotate, and retrieve secrets such as database credentials?",
+          "options": [
+            {
+              "key": "A",
+              "text": "AWS Elastic Beanstalk"
+            },
+            {
+              "key": "B",
+              "text": "Amazon RDS"
+            },
+            {
+              "key": "C",
+              "text": "AWS Secrets Manager"
+            },
+            {
+              "key": "D",
+              "text": "Amazon Transcribe"
+            }
+          ],
+          "correct": [
+            "C"
+          ],
+          "selected": [],
+          "isCorrect": false,
+          "flagged": false,
+          "timeSpentSec": 0,
+          "explanation": "AWS Secrets Manager helps you store, rotate, and retrieve secrets such as database credentials."
+        },
+        {
+          "position": 61,
+          "id": "31",
+          "scored": true,
+          "domain": "Cloud Technology and Services",
+          "text": "Which AWS service lets you query data in Amazon S3 using standard SQL without managing servers?",
+          "options": [
+            {
+              "key": "A",
+              "text": "AWS Cost Explorer"
+            },
+            {
+              "key": "B",
+              "text": "Amazon Athena"
+            },
+            {
+              "key": "C",
+              "text": "AWS IAM"
+            },
+            {
+              "key": "D",
+              "text": "AWS Elastic Beanstalk"
+            }
+          ],
+          "correct": [
+            "B"
+          ],
+          "selected": [],
+          "isCorrect": false,
+          "flagged": false,
+          "timeSpentSec": 0,
+          "explanation": "Amazon Athena lets you query data in Amazon S3 using standard SQL without managing servers."
+        },
+        {
+          "position": 62,
+          "id": "51",
+          "scored": true,
+          "domain": "Cloud Technology and Services",
+          "text": "Which AWS service is a content delivery network (CDN) that delivers content with low latency through edge locations?",
+          "options": [
+            {
+              "key": "A",
+              "text": "Amazon CloudFront"
+            },
+            {
+              "key": "B",
+              "text": "AWS Storage Gateway"
+            },
+            {
+              "key": "C",
+              "text": "Amazon QuickSight"
+            },
+            {
+              "key": "D",
+              "text": "AWS WAF"
+            }
+          ],
+          "correct": [
+            "A"
+          ],
+          "selected": [],
+          "isCorrect": false,
+          "flagged": false,
+          "timeSpentSec": 0,
+          "explanation": "Amazon CloudFront is a content delivery network (CDN) that delivers content with low latency through edge locations."
+        },
+        {
+          "position": 63,
+          "id": "5",
+          "scored": true,
+          "domain": "Cloud Technology and Services",
+          "text": "Which AWS service provides low-cost, long-term archival storage for data that is rarely accessed?",
+          "options": [
+            {
+              "key": "A",
+              "text": "Amazon S3 Glacier"
+            },
+            {
+              "key": "B",
+              "text": "Amazon EKS"
+            },
+            {
+              "key": "C",
+              "text": "Amazon VPC"
+            },
+            {
+              "key": "D",
+              "text": "AWS Site-to-Site VPN"
+            }
+          ],
+          "correct": [
+            "A"
+          ],
+          "selected": [],
+          "isCorrect": false,
+          "flagged": false,
+          "timeSpentSec": 0,
+          "explanation": "Amazon S3 Glacier provides low-cost, long-term archival storage for data that is rarely accessed."
+        },
+        {
+          "position": 64,
+          "id": "42",
+          "scored": false,
+          "domain": "Cloud Technology and Services",
+          "text": "Which AWS service provides object storage built to store and retrieve any amount of data from anywhere?",
+          "options": [
+            {
+              "key": "A",
+              "text": "AWS Config"
+            },
+            {
+              "key": "B",
+              "text": "AWS Transfer Family"
+            },
+            {
+              "key": "C",
+              "text": "Amazon Athena"
+            },
+            {
+              "key": "D",
+              "text": "Amazon S3"
+            }
+          ],
+          "correct": [
+            "D"
+          ],
+          "selected": [],
+          "isCorrect": false,
+          "flagged": false,
+          "timeSpentSec": 0,
+          "explanation": "Amazon S3 provides object storage built to store and retrieve any amount of data from anywhere."
+        },
+        {
+          "position": 65,
+          "id": "44",
+          "scored": true,
+          "domain": "Cloud Technology and Services",
+          "text": "Which AWS service runs managed Kubernetes on AWS?",
+          "options": [
+            {
+              "key": "A",
+              "text": "Amazon GuardDuty"
+            },
+            {
+              "key": "B",
+              "text": "Amazon EKS"
+            },
+            {
+              "key": "C",
+              "text": "Amazon SageMaker"
+            },
+            {
+              "key": "D",
+              "text": "AWS Glue"
+            }
+          ],
+          "correct": [
+            "B"
+          ],
+          "selected": [],
+          "isCorrect": false,
+          "flagged": false,
+          "timeSpentSec": 0,
+          "explanation": "Amazon EKS runs managed Kubernetes on AWS."
+        }
+      ],
+      "savedAt": "2026-10-23T08:27:38.893Z"
+    }
+  ]
+}
